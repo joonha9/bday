@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>아가둥이의 생일! 💕</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600&family=Gaegu:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+</head>
+<body>
+    <div class="falling-hearts"></div>
+    
+    <div class="music-player">
+        <audio id="background-music" loop>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
+        </audio>
+        <button id="music-toggle" class="music-btn">
+            <span class="music-icon">🎵</span>
+        </button>
+    </div>
+    
+    <div class="container">
+        <header>
+            <h1 class="title">아가둥아! 생일축하해!!! 💖</h1>
+            <p class="subtitle">오늘은 자기만을 위한 날이야!</p>
+        </header>
+
+        <section class="intro">
+            <div class="heart-container">
+                <div class="heart"></div>
+            </div>
+            <div class="main-photo">
+                <img src="DSC_1380.jpeg" alt="Us together" class="featured-img">
+            </div>
+        </section>
+
+        <section class="photo-gallery">
+            <h2>우리의 소중한 순간들 📸</h2>
+            <div class="gallery-container">
+                <div class="floating-photos">
+                    <img src="DSC_0056.jpeg" alt="Memory 1" class="floating-photo">
+                    <img src="DSC_0061.jpeg" alt="Memory 2" class="floating-photo">
+                    <img src="DSC_0296.jpeg" alt="Memory 3" class="floating-photo">
+                    <img src="DSC_0981.jpeg" alt="Memory 4" class="floating-photo">
+                    <img src="DSC_1265.jpeg" alt="Memory 5" class="floating-photo">
+                </div>
+            </div>
+            <div class="photo-carousel">
+                <button class="carousel-btn prev-btn">❮</button>
+                <div class="carousel-container">
+                    <img src="IMG_0333.jpeg" alt="Memory 6" class="carousel-img active">
+                    <img src="IMG_1377.jpeg" alt="Memory 7" class="carousel-img">
+                    <img src="IMG_3765.jpeg" alt="Memory 8" class="carousel-img">
+                    <img src="IMG_3853.jpeg" alt="Memory 9" class="carousel-img">
+                    <img src="IMG_4667.jpeg" alt="Memory 10" class="carousel-img">
+                </div>
+                <button class="carousel-btn next-btn">❯</button>
+            </div>
+        </section>
+
+        <section class="memories">
+            <h2>더 아름다운 순간들 💫</h2>
+            <div class="memory-grid">
+                <div class="memory-item">
+                    <img src="IMG_5381.jpeg" alt="Memory 11" class="memory-img">
+                </div>
+                <div class="memory-item">
+                    <img src="IMG_5444.jpeg" alt="Memory 12" class="memory-img">
+                </div>
+                <div class="memory-item">
+                    <img src="IMG_5476.jpeg" alt="Memory 13" class="memory-img">
+                </div>
+                <div class="memory-item">
+                    <img src="IMG_5609.jpeg" alt="Memory 14" class="memory-img">
+                </div>
+                <div class="memory-item">
+                    <img src="IMG_5820.jpeg" alt="Memory 15" class="memory-img">
+                </div>
+                <div class="memory-item">
+                    <img src="DSC_8206.jpeg" alt="Memory 16" class="memory-img">
+                </div>
+            </div>
+        </section>
+
+        <section class="timeline-section">
+            <h2>우리의 소중한 시간들 ⏰</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">뉴욕 여행</div>
+                    <div class="timeline-content">
+                        <img src="DSC_0056.jpeg" alt="First Meeting" class="timeline-img">
+                        <p>뉴욕 여행, 그날의 추억이 정말 좋았어</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">뉴욕 브릿지!</div>
+                    <div class="timeline-content">
+                        <img src="DSC_0296.jpeg" alt="First Date" class="timeline-img">
+                        <p>날씨도 너무 좋고 자기두 너무 이뻣어!</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">자기와 함께찍은 사진!</div>
+                    <div class="timeline-content">
+                        <img src="IMG_3765.jpeg" alt="Special Trip" class="timeline-img">
+                        <p>자기랑 함께하는 모든 순간이 행복해!</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">골프친날!</div>
+                    <div class="timeline-content">
+                        <img src="IMG_5820.jpeg" alt="100 Days" class="timeline-img">
+                        <p>공부도 잘하고 골프도 잘치고! 못하는게 대체 뭐야!</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">오늘, 생일</div>
+                    <div class="timeline-content">
+                        <img src="DSC_1380.jpeg" alt="Birthday" class="timeline-img">
+                        <p>태어나줘서 너무 고마워!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="letter-section">
+            <h2>내 소중한 마음을 여기에 전할게 💌</h2>
+            <div class="letter-container">
+                <div class="letter-paper">
+                    <div class="letter-content" contenteditable="true">
+                       안녕 자기야! 먼저 생일 축하해!!! 군대에서 돌아와서 미국에서 맞이하는 첫 생일이네!! 일년동안 자기랑
+                       학교에서나 집에서나 함께해서 너무 행복하고 고마웠어! 어떡해 내 마음을 다 표현해야 하는지도 모르겠넹!
+                       이제 자기가 졸업을 하는데 너무 슬포!!!! 자기 없이 어떡해 학교 생활을 해야하는지 막막하넹!! 그래도 항상
+                       자기 생각을 하면서 지낼 수 있도록 할게! 365일 전부 다 자기의 날이지만 특히 5월 22일은 완전한 자기의 날
+                       이야!! 자기가 여왕이다 라고 생각하면서 지낼 수 있도록 해요! 너무 너무 사랑해!!!!
+                       <br>
+                       from - 자기를 제일 사랑하는 준하오빠
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="wishes-section">
+            <h2>생일 축하해! 🎂</h2>
+            <div class="wish-balloons">
+                <div class="balloon" style="--color: rgba(255, 123, 172, 0.8)">사랑해요</div>
+                <div class="balloon" style="--color: rgba(123, 179, 255, 0.8)">Happy Birthday</div>
+                <div class="balloon" style="--color: rgba(255, 214, 123, 0.8)">You're Amazing</div>
+                <div class="balloon" style="--color: rgba(179, 255, 123, 0.8)">My Everything</div>
+                <div class="balloon" style="--color: rgba(216, 123, 255, 0.8)">Forever Together</div>
+            </div>
+        </section>
+
+        <section class="quiz-section">
+            <h2>우리의 사랑 퀴즈 💖</h2>
+            <div class="quiz-container">
+                <div class="quiz-intro">
+                    <p>자기가 얼마나 나를 잘 알고 있는지 퀴즈를 풀어보세요!</p>
+                    <button class="start-quiz-btn">퀴즈 시작하기</button>
+                </div>
+                <div class="quiz-questions" style="display: none;">
+                    <div class="question" data-question="1">
+                        <h3>Q1. 내가 가장 좋아하는 음식은?</h3>
+                        <div class="options">
+                            <div class="option" data-correct="false">피자</div>
+                            <div class="option" data-correct="false">집밥</div>
+                            <div class="option" data-correct="true">순대</div>
+                            <div class="option" data-correct="false">파스타</div>
+                        </div>
+                    </div>
+                    <div class="question" data-question="2" style="display: none;">
+                        <h3>Q2. 우리가 처음 만난 장소는?</h3>
+                        <div class="options">
+                            <div class="option" data-correct="false">카페</div>
+                            <div class="option" data-correct="false">학교</div>
+                            <div class="option" data-correct="true">줌</div>
+                            <div class="option" data-correct="false">공원</div>
+                        </div>
+                    </div>
+                    <div class="question" data-question="3" style="display: none;">
+                        <h3>Q3. 내가 가장 좋아하는 색은?</h3>
+                        <div class="options">
+                            <div class="option" data-correct="false">빨강</div>
+                            <div class="option" data-correct="true">파랑</div>
+                            <div class="option" data-correct="false">핑크</div>
+                            <div class="option" data-correct="false">보라</div>
+                        </div>
+                    </div>
+                    <div class="question" data-question="4" style="display: none;">
+                        <h3>Q4. 내가 가장 좋아하는 동물은?</h3>
+                        <div class="options">
+                            <div class="option" data-correct="true">강아지</div>
+                            <div class="option" data-correct="false">고양이</div>
+                            <div class="option" data-correct="false">토끼</div>
+                            <div class="option" data-correct="false">펭귄</div>
+                        </div>
+                    </div>
+                    <div class="question" data-question="5" style="display: none;">
+                        <h3>Q5. 내가 가장 좋아하는 계절은?</h3>
+                        <div class="options">
+                            <div class="option" data-correct="false">봄</div>
+                            <div class="option" data-correct="false">여름</div>
+                            <div class="option" data-correct="false">가을</div>
+                            <div class="option" data-correct="true">겨울</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="quiz-result" style="display: none;">
+                    <h3>퀴즈 결과</h3>
+                    <div class="result-message"></div>
+                    <div class="score-display">
+                        <span class="score">0</span>/5
+                    </div>
+                    <button class="restart-quiz-btn">다시 시도하기</button>
+                </div>
+                <div class="quiz-navigation" style="display: none;">
+                    <button class="prev-question-btn" disabled>이전</button>
+                    <span class="question-counter">1/5</span>
+                    <button class="next-question-btn">다음</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="cake-section">
+            <h2>소원은 여기에! 🎂</h2>
+            <div class="cake-container">
+                <div class="cake">
+                    <div class="cake-top"></div>
+                    <div class="cake-middle"></div>
+                    <div class="cake-bottom"></div>
+                    <div class="candle">
+                        <div class="flame"></div>
+                    </div>
+                </div>
+                <button class="blow-candle-btn">Blow Candle</button>
+            </div>
+        </section>
+
+        <footer>
+            <p>생일 축하해! 🎉</p>
+            <p class="date">May 22, 2025</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
